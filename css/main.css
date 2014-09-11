@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #dad9db;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -30,6 +31,12 @@ img {
   width: 100%;
 }
 
+.all{
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 10%;
+}
+
 .image-span{
   position: relative;
   width: 100%;
@@ -44,7 +51,7 @@ img {
   padding-left: 5%;
 
   font-family: serif;
-  font-size: 155%;
+  font-size: 1.4rem;
   color: white;
   background: rgba(0, 0, 0, 0.2);
 }
