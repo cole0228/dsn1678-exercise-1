@@ -30,3 +30,27 @@ img {
   width: 100%;
 }
 
+.image-span{
+  position: relative;
+  width: 100%;
+}
+
+.p-span{
+  position: absolute;
+  top: 65%;
+  left: 0;
+  width: 100%;
+
+  padding-left: 5%;
+
+  font-family: serif;
+  font-size: 155%;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.fig-position, figure{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
