@@ -34,7 +34,7 @@ img {
 .all{
   background-color: white;
   border-radius: 10px;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .image-span{
@@ -69,8 +69,27 @@ img {
 .float{
   float: left;
   padding: 5%;
+  width: 33.33%;
 }
 
-.box1{
-  border-left: 2px;
+
+.verticalline{
+  border-left: 2px solid grey;
+  height: 70%;
+  padding-top: 0;
+}
+
+.verticallinenone{
+  border-left: clear;
+  height: 70%;
+  padding-top: 0;
+}
+
+.grey{
+  color: grey;
+  text-transform: uppercase;
+}
+
+.box-height{
+  height: 9rem;
 }
